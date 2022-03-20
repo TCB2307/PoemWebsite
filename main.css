@@ -1,0 +1,231 @@
+/*This is a CSS comment*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background: #91ebeb;
+}
+
+#container {
+    display: block;
+    background: #91ebeb;
+    width: 1280px;
+    height: 1280px;
+    margin: 0 auto;
+}
+
+.button {
+    width: 60px;
+    height: 45px;
+    margin-left: 20px;
+    margin-bottom: 122px;
+}
+
+.home {
+    position: relative;
+    width: 60px;
+    height: 45px;
+    bottom: 50px;
+}
+
+.symbol1 {
+    position: relative;
+    width: 140px;
+    height: 90px;
+    bottom: 100px;
+    right: 50px;
+}
+
+.symbol2 {
+    position: relative;
+    width: 140px;
+    height: 90px;
+    bottom: 150px;
+    right: 40px;
+}
+
+.symbol3 {
+    position: relative;
+    width: 140px;
+    height: 90px;
+    bottom: 200px;
+    right: 40px;
+}
+
+.symbol4 {
+    position: relative;
+    width: 140px;
+    height: 90px;
+    bottom: 250px;
+    right: 40px;
+}
+
+.symbol5 {
+    position: relative;
+    width: 140px;
+    height: 90px;
+    bottom: 300px;
+    right: 40px;
+}
+
+.symbol6 {
+    position: relative;
+    width: 140px;
+    height: 90px;
+    bottom: 350px;
+    right: 40px;
+}
+
+.symbol7 {
+    position: relative;
+    width: 140px;
+    height: 90px;
+    bottom: 400px;
+    right: 40px;
+}
+
+.symbol8 {
+    position: relative;
+    width: 140px;
+    height: 90px;
+    bottom: 450px;
+    right: 40px;
+}
+
+.chapter1 {
+    font-weight: bold;
+    position: relative;
+    bottom: 160px;
+    left: 110px;
+}
+
+.chapter2 {
+    font-weight: bold;
+    position: relative;
+    bottom: 210px;
+    left: 110px;
+}
+
+.chapter3 {
+    font-weight: bold;
+    position: relative;
+    bottom: 260px;
+    left: 110px;
+}
+
+.chapter4 {
+    font-weight: bold;
+    position: relative;
+    bottom: 310px;
+    left: 110px;
+}
+
+.chapter5 {
+    font-weight: bold;
+    position: relative;
+    bottom: 360px;
+    left: 110px;
+}
+
+.chapter6 {
+    font-weight: bold;
+    position: relative;
+    bottom: 410px;
+    left: 110px;
+}
+
+.chapter7 {
+    font-weight: bold;
+    position: relative;
+    bottom: 460px;
+    left: 110px;
+}
+
+.chapter8 {
+    font-weight: bold;
+    position: relative;
+    bottom: 510px;
+    left: 110px;
+}
+
+#book {
+    position: relative;
+    width: 100px;
+    height: 75px;
+    top: 60px;
+    left: 300px;
+}
+
+.cloud1 {
+    position: relative;
+    width: 250px;
+    height: 190px;
+    top: 80px; 
+    right: 220px;
+}
+
+.cloud2 {
+    position: relative;
+    width: 250px;
+    height: 190px;
+    top: 35px; 
+    left: 200px;
+}
+
+.cloud3 {
+    position: relative;
+    width: 250px;
+    height: 190px;
+    top: 145px; 
+    right: 200px;
+}
+
+.sun {
+    position: relative;
+    width: 750px;
+    height: 590px;
+    bottom: 420px; 
+    left: 720px;
+}
+
+
+.title {
+    font-family: Verdana;
+    font-size: 60px;
+    position: relative;
+    bottom: 750px;
+    left: 500px;
+}
+
+.author {
+    font-family: Verdana;
+    font-size: 30px;
+    position: relative;
+    bottom: 740px;
+    left: 400px;
+}
+
+
+tr.spaceUnder>td {
+  padding-bottom: 4em;
+}
+
+.wave {
+    position: absolute;
+    width: 1280px;
+    height: 600px;
+    top: 513px;
+    right: 320px;
+}
+
+.introduction {
+    position: relative;
+    font-family: Century Gothic;
+    font-size: 30px;
+    bottom: 590px;
+    margin-right: 20px;
+    margin-left: 20px;
+}

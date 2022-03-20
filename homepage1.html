@@ -1,0 +1,281 @@
+<!--This is an HTML comment-->
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css" />
+    <title>Homepage</title>
+    <style>
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #f4b183;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {
+          padding-top: 15px;
+        }
+        .sidenav a {
+          font-size: 18px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <audio src="MouseClick.mp3" id="buttonSound"></audio>
+    <audio autoplay src="HAEVN-TheSea.mp3" id="musicbg"></audio>
+
+    <div id="container">
+      <div id="mySidenav" class="sidenav">
+        <a href="homepage1.html">
+          <img
+            class="home"
+            src="Buttons/Home.png"
+            onclick="buttonSound()"
+            onmouseover="this.src='RollOver/Home_Rollover.png'"
+            onmouseout="this.src='Buttons/Home.png'"
+            alt="Home"
+          />
+        </a>
+        <br />
+        <br />
+        <br />
+        <a
+          style="font-size: 60px; font-weight: bold"
+          href="javascript:void(0)"
+          class="closebtn"
+          onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="#"
+          ><img
+            class="symbol1"
+            src="Symbol/1.jpg"
+            onclick="buttonSound()"
+            onmouseover="this.src='RollOver/Chapter1-Rollover.png'"
+            onmouseout="this.src='Symbol/1.jpg'"
+            alt="Chapter 1"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <p class="chapter1">Chapter&nbsp;1</p></a
+        >
+        <br />
+        <a href="#"
+          ><img
+            class="symbol2"
+            src="Symbol/2.jpg"
+            onclick="buttonSound()"
+            onmouseover="this.src='RollOver/Chapter2-Rollover.png'"
+            onmouseout="this.src='Symbol/2.jpg'"
+            alt="Chapter 2"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <p class="chapter2">Chapter&nbsp;2</p></a
+        >
+        <br />
+        <a href="#"
+          ><img
+            class="symbol3"
+            src="Symbol/3.png"
+            onclick="buttonSound()"
+            onmouseover="this.src='RollOver/Chapter3-Rollover.png'"
+            onmouseout="this.src='Symbol/3.png'"
+            alt="Chapter 3"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <p class="chapter3">Chapter&nbsp;3</p></a
+        >
+        <br />
+        <a href="#"
+          ><img
+            class="symbol4"
+            src="Symbol/4.jpg"
+            onclick="buttonSound()"
+            onmouseover="this.src='RollOver/Chapter4-Rollover.png'"
+            onmouseout="this.src='Symbol/4.jpg'"
+            alt="Chapter 4"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <p class="chapter4">Chapter&nbsp;4</p></a
+        >
+        <br />
+        <a href="chapter5.html"
+          ><img
+            class="symbol5"
+            src="Symbol/5.png"
+            onclick="buttonSound()"
+            onmouseover="this.src='RollOver/Chapter5-Rollover.png'"
+            onmouseout="this.src='Symbol/5.png'"
+            alt="Chapter 5"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <p class="chapter5">Chapter&nbsp;5</p></a
+        >
+        <br />
+        <a href="#"
+          ><img
+            class="symbol6"
+            src="Symbol/6.jpg"
+            onclick="buttonSound()"
+            onmouseover="this.src='RollOver/Chapter6-Rollover.png'"
+            onmouseout="this.src='Symbol/6.jpg'"
+            alt="Chapter 6"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <p class="chapter6">Chapter&nbsp;6</p></a
+        >
+        <br />
+        <a href="#"
+          ><img
+            class="symbol7"
+            src="Symbol/7.jpg"
+            onclick="buttonSound()"
+            onmouseover="this.src='RollOver/Chapter7-Rollover.png'"
+            onmouseout="this.src='Symbol/7.jpg'"
+            alt="Chapter 7"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <p class="chapter7">Chapter&nbsp;7</p></a
+        >
+        <br />
+        <a href="#"
+          ><img
+            class="symbol8"
+            src="Symbol/8.jpg"
+            onclick="buttonSound()"
+            onmouseover="this.src='RollOver/Chapter8-Rollover.png'"
+            onmouseout="this.src='Symbol/8.jpg'"
+            alt="Chapter 8"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <p class="chapter8">Chapter&nbsp;8</p></a
+        >
+      </div>
+
+      <span style="cursor: pointer" onclick="openNav()">
+        <img
+          class="button"
+          id="menu"
+          src="Buttons/Menu.png"
+          onclick="buttonSound()"
+          onmouseover="this.src='RollOver/Menu_Rollover.png'"
+          onmouseout="this.src='Buttons/Menu.png'"
+          alt="Menu"
+        />
+      </span>
+
+      <img
+        style="cursor: pointer"
+        class="button"
+        src="Buttons/Play.png"
+        onclick="playAud()"
+        onmouseover="this.src='RollOver/Play_Rollover.png'"
+        onmouseout="this.src='Buttons/Play.png'"
+        alt="Play"
+      />
+
+      <img
+        style="cursor: pointer"
+        class="button"
+        src="Buttons/Pause.png"
+        onclick="pauseAud()"
+        onmouseover="this.src='RollOver/Pause_Rollover.png'"
+        onmouseout="this.src='Buttons/Pause.png'"
+        alt="Pause"
+      />
+
+      <a href="homepage2.html">
+        <img
+          id="book"
+          src="Buttons/Poem.png"
+          onclick="buttonSound()"
+          onmouseover="this.src='RollOver/Poem_Rollover.png'"
+          onmouseout="this.src='Buttons/Poem.png'"
+          alt="Book"
+        />
+      </a>
+
+      <img class="cloud1" src="images/Cloud.png" alt="Cloud" />
+      <img class="cloud2" src="images/Cloud.png" alt="Cloud" />
+      <img class="cloud3" src="images/Cloud.png" alt="Cloud" />
+      <img class="sun" src="images/sun.png" alt="Sun" />
+
+      <div class="title">
+        <p><strong>Wave</strong></p>
+      </div>
+      <div class="author"><p>Composed by: Xuan Quynh</p></div>
+
+      <img class="wave" src="GIF/wave.gif" alt="Wave" />
+
+      <div class="introduction">
+        <p>
+          Xuan Quynh was a Vietnamese journalist and noted poet whose works
+          often consider how humanity inevitably blossoms and grows, even during
+          wartime, and how strength and determination can emerge from situations
+          of deep suffering and intense deprivation and want. In a review on the
+          New Pages Web site, Denise Bazzett described Quynh as the "female poet
+          of the North writing from behind the domestic scenes of war. One of
+          her famous love poems is "Wave".
+        </p>
+        <br />
+        <p>
+          "Wave" praised the fine virtues of Vietnamese women, loyalty, iron
+          lipstick, a heart and sacrifice for love. The author cleverly uses the
+          image of the waves to speak instead of the mood of the woman when in
+          love, an image that is both simple and easy to imagine and highly
+          symbolic, giving the poem an artistic and viable effect. Abundant
+          emotions, the expression of Xuan Quynh's mind is completely revealed.
+          Waves - Poems for women's love.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var aud = document.getElementById("musicbg");
+
+      var button = document.getElementById("buttonSound");
+
+      function playAud() {
+        aud.play();
+      }
+
+      function pauseAud() {
+        aud.pause();
+      }
+
+      function buttonSound() {
+        button.play();
+      }
+
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "300px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>
